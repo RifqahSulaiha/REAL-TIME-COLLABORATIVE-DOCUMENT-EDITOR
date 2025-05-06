@@ -37,4 +37,8 @@ Overall, this collaborative document application was a fulfilling project that a
 management, real-time data syncing, and user interface design. I look forward to expanding the project in the future by adding features like user authentication, chat support, document version history, and 
 offline editing capabilities.
 
+Output:
+
+![Image](https://github.com/user-attachments/assets/6735c3c3-cb90-47f6-a1bd-62fa2e0b18e3)
+
 
