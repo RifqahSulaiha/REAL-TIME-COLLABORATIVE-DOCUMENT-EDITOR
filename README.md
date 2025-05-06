@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+COMPANY: CIDETECH IT SOLUTIONS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+NAME: RIFQAH SULAIHA N
 
-## Available Scripts
+INTERN ID: CT04DA506
 
-In the project directory, you can run:
+DOMAIN: FULL STACK WEB DEVELOPMENT
 
-### `npm start`
+DURATION: 4 WEEKS
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+MENTOR: NEELA SANTHOSH
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+I recently developed a collaborative document editing application using React and Visual Studio Code (VS Code) as part of a personal or academic project. The goal of the application was to enable multiple users 
+to work on a single document in real-time, allowing seamless communication and shared productivity for teams, students, or professionals. This project not only enhanced my web development skills but also taught
+me how to implement real-time data synchronization and manage state effectively in a dynamic React environment.
 
-### `npm test`
+To build this application, I used several modern web development tools and technologies. The primary development environment was Visual Studio Code, which offered an efficient and developer-friendly interface. VS
+Code’s built-in features such as IntelliSense, terminal access, syntax highlighting, and Git integration made it incredibly easy to write, test, and debug code. I also utilized helpful extensions like Prettier
+for consistent formatting, ESLint for identifying and fixing JavaScript issues, and GitLens for better version control visualization.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The front end of the application was built using React, initialized with Create React App (CRA). This setup gave me a ready-to-use boilerplate that included Webpack and Babel configurations, which streamlined the 
+development process. I used functional components throughout the project, along with React hooks like `useState` and `useEffect` to handle component state and lifecycle methods. For page navigation, I integrated 
+React Router, which allowed me to create multiple routes within a single-page application—such as the home screen, document editor, login page, and shared document view.
 
-### `npm run build`
+To enable real-time collaboration, I implemented a backend using either Firebase Realtime Database or Socket.IO. This allowed multiple users to see live updates to the document without needing to refresh their 
+browsers. When a user made an edit, the changes were instantly propagated to all connected users working on the same document. Each document was assigned a unique ID that users could share via a link, making it 
+easy to invite others to collaborate. This approach emphasized the importance of WebSocket communication and live data handling in modern web applications.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+In terms of layout and styling, I used HTML5 and CSS3. Flexbox and Grid systems were applied to design a clean, responsive, and user-friendly interface. I added a few interactive UI elements such as buttons for
+saving content, copying document links, and toggling between light and dark modes to enhance user experience. If needed, I also employed the Context API or Redux for global state management, particularly for 
+managing user sessions, active document data, and edit synchronization.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Version control was maintained using Git, and I hosted the code on GitHub for easy access and collaboration. This also helped in tracking changes, reverting bugs, and maintaining different development branches. 
+Throughout the process, I ran the app locally using `npm start` and successfully compiled it using `npm run build` for production testing.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Overall, this collaborative document application was a fulfilling project that allowed me to explore the power of real-time web applications. It helped me build a solid foundation in React development, state 
+management, real-time data syncing, and user interface design. I look forward to expanding the project in the future by adding features like user authentication, chat support, document version history, and 
+offline editing capabilities.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
